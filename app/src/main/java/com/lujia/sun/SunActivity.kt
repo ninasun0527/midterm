@@ -22,12 +22,13 @@ class SunActivity : AppCompatActivity() {
         buttonNext.setOnClickListener {
             val selectedExercises = StringBuilder("Selected exercises:")
 
-            if (checkBoxLoseThings.isChecked) selectedExercises.append("\n- Lose things ")
-            if (checkBoxRememberNames.isChecked) selectedExercises.append("\n- Remember names")
-            if (checkBoxLearnQuickly.isChecked) selectedExercises.append("\n- Learn things quickly")
-            if (checkBoxTrackMultiple.isChecked) selectedExercises.append("\n- Keep track of multiple things")
+            if (checkBoxLoseThings.isChecked) selectedExercises.append("- Lose things")
+            if (checkBoxRememberNames.isChecked) selectedExercises.append("- Remember names")
+            if (checkBoxLearnQuickly.isChecked) selectedExercises.append("- Learn quickly")
+            if (checkBoxTrackMultiple.isChecked) selectedExercises.append("- Keep track of multiple things")
 
-            if (selectedExercises.length > 20) {
+            // Display Toast directly without custom layout
+            if (selectedExercises.length > "Selected exercises:".length) {
                 Toast.makeText(this, selectedExercises.toString(), Toast.LENGTH_LONG).show()
             } else {
                 Toast.makeText(this, "No exercise selected", Toast.LENGTH_SHORT).show()
