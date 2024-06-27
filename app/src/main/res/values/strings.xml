@@ -4,4 +4,8 @@
     <string name="logo">logo</string>
     <string name="challenge_your_brain_with_scientifically_designed_exercises">Challenge Your Brain with scientifically designed exercises</string>
     <string name="brain_challenge">Brain Challenge</string>
+    <string name="lose_things">Lose things</string>
+    <string name="remember_names">Remember names</string>
+    <string name="learn_quickly">Learn quickly</string>
+    <string name="keep_track_of_multiple_things">Keep track of multiple things</string>
 </resources>
