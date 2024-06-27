@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LujiaSum_COMP304_001_Hands-On_Test1_S24</string>
+    <string name="select_exercises">Select Exercises</string>
+    <string name="logo">logo</string>
+    <string name="challenge_your_brain_with_scientifically_designed_exercises">Challenge Your Brain with scientifically designed exercises</string>
+    <string name="brain_challenge">Brain Challenge</string>
 </resources>
